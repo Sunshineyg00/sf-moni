@@ -2,7 +2,7 @@ name: Run monitor
 
 on:
   schedule:
-    - cron: '32 15 * * *'   # 每天 23:32 北京/新加坡时间（UTC+8）
+    - cron: '52 15 * * *'   # 每天 23:32 北京/新加坡时间（UTC+8）
   workflow_dispatch: {}      # 仍可手动触发
 
 jobs:
